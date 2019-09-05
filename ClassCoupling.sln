@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{091C6DF1-C377-44E7-90E4-88AE12C61311}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{DD8DC862-D2C4-41DE-9788-D8BDAB715ECB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{F2BC2763-982F-42EB-B8B8-BF44BF5BF351}"
+	ProjectSection(SolutionItems) = preProject
+		Inheritance\ReadMe.md = Inheritance\ReadMe.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{091C6DF1-C377-44E7-90E4-88AE12C61311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{091C6DF1-C377-44E7-90E4-88AE12C61311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{091C6DF1-C377-44E7-90E4-88AE12C61311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8DC862-D2C4-41DE-9788-D8BDAB715ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8DC862-D2C4-41DE-9788-D8BDAB715ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8DC862-D2C4-41DE-9788-D8BDAB715ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8DC862-D2C4-41DE-9788-D8BDAB715ECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

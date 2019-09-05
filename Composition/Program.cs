@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance
+namespace Composition
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var car = new Car();
-            
-            var plane = new Plane();
+            var drivable = new Drivable();
+            var car = new Car(drivable);
 
+            var flyable = new Flyable();
+            var plane = new Plane(flyable);
         }
     }
 }
